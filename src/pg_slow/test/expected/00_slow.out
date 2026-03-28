@@ -1,0 +1,70 @@
+CREATE EXTENSION pg_slow;
+ERROR:  extension "pg_slow" already exists
+CREATE TABLE data(value INT);
+-- Test with positive values
+INSERT INTO data(value) SELECT generate_series(0, 1000);
+-- Test output
+SELECT value, (value%2)::boolean, is_odd_slow(value), is_odd_fast(value) FROM data LIMIT 20;
+ value | bool | is_odd_slow | is_odd_fast 
+-------+------+-------------+-------------
+     0 | f    | f           | f
+     1 | t    | t           | t
+     2 | f    | f           | f
+     3 | t    | t           | t
+     4 | f    | f           | f
+     5 | t    | t           | t
+     6 | f    | f           | f
+     7 | t    | t           | t
+     8 | f    | f           | f
+     9 | t    | t           | t
+    10 | f    | f           | f
+    11 | t    | t           | t
+    12 | f    | f           | f
+    13 | t    | t           | t
+    14 | f    | f           | f
+    15 | t    | t           | t
+    16 | f    | f           | f
+    17 | t    | t           | t
+    18 | f    | f           | f
+    19 | t    | t           | t
+(20 rows)
+
+-- Test differences
+SELECT *, (value % 2)::boolean, is_odd_slow(value) FROM data WHERE (value % 2)::boolean <> is_odd_slow(value);
+ value | bool | is_odd_slow 
+-------+------+-------------
+(0 rows)
+
+-- Test with negative values
+TRUNCATE data;
+INSERT INTO data(value) SELECT generate_series(-1000, 0);
+SELECT value, (value%2)::boolean, is_odd_slow(value), is_odd_fast(value) FROM data LIMIT 20;
+ value | bool | is_odd_slow | is_odd_fast 
+-------+------+-------------+-------------
+ -1000 | f    | f           | f
+  -999 | t    | t           | t
+  -998 | f    | f           | f
+  -997 | t    | t           | t
+  -996 | f    | f           | f
+  -995 | t    | t           | t
+  -994 | f    | f           | f
+  -993 | t    | t           | t
+  -992 | f    | f           | f
+  -991 | t    | t           | t
+  -990 | f    | f           | f
+  -989 | t    | t           | t
+  -988 | f    | f           | f
+  -987 | t    | t           | t
+  -986 | f    | f           | f
+  -985 | t    | t           | t
+  -984 | f    | f           | f
+  -983 | t    | t           | t
+  -982 | f    | f           | f
+  -981 | t    | t           | t
+(20 rows)
+
+SELECT *, (value % 2)::boolean, is_odd_slow(value) FROM data WHERE (value % 2)::boolean <> is_odd_slow(value);
+ value | bool | is_odd_slow 
+-------+------+-------------
+(0 rows)
+

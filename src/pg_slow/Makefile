@@ -1,10 +1,10 @@
-EXTENSION = aggregate_functions
+EXTENSION = pg_slow
 EXTVERSION = 1.0
 
-MODULE_big = aggregate_functions
-OBJS = aggregate_functions.o
+MODULE_big = pg_slow
+OBJS = pg_slow.o
 
-DATA = aggregate_functions--1.0.sql
+DATA = pg_slow--1.0.sql
 
 TESTS = $(wildcard test/sql/*.sql)
 REGRESS = $(patsubst test/sql/%.sql,%,$(TESTS))

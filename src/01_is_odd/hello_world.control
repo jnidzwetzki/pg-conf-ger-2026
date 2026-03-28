@@ -1,4 +1,0 @@
-comment = 'Simple hello world extension'
-default_version = '1.0'
-relocatable = true
-module_pathname = '$libdir/hello_world'
