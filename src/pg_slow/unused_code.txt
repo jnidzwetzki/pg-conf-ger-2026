@@ -1,0 +1,44 @@
+
+// bool is_odd_io(int32 val)
+// {
+//     File temp_file;
+//     const char *temp_path;
+//     int32 abs_val;
+//     int32 i;
+//     FILE *f;
+//     char buf[128];
+//     char last_line[128] = "";
+//     bool odd;
+
+//     /* Open in Postgres temporary file area */
+//     temp_file = OpenTemporaryFile(false);
+//     if (temp_file < 0)
+//         elog(ERROR, "could not open temporary file");
+
+//     temp_path = FilePathName(temp_file);
+
+//     abs_val = abs(val);
+//     f = fopen(temp_path, "a");
+//     setvbuf(f, NULL, _IOFBF, 64*1024);
+
+//     for (i = 0; i <= abs_val; i++)
+//     {
+//         if (f == NULL)
+//             elog(ERROR, "could not open temp file %s", temp_path);
+
+//         odd = (i % 2) != 0;
+//         fputs(odd ? "odd\n" : "even\n", f);
+//     }
+//     fclose(f);
+
+//     f = fopen(temp_path, "r");
+//     if (f == NULL)
+//         elog(ERROR, "could not open temp file %s for reading", temp_path);
+
+//     while (fgets(buf, sizeof(buf), f) != NULL)
+//         strncpy(last_line, buf, sizeof(last_line) - 1);
+//     fclose(f);
+
+//     FileClose(temp_file);
+//     return (strstr(last_line, "odd") != NULL);
+// }

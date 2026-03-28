@@ -1,0 +1,38 @@
+uprobe:/usr/local/postgresql-18.3/lib/pg_slow.so:is_odd_cliff
+{
+  @start[tid] = nsecs;
+  @v[tid] = arg0;
+}
+
+uretprobe:/usr/local/postgresql-18.3/lib/pg_slow.so:is_odd_cliff
+/@start[tid]/
+{
+  $dur_us = (nsecs - @start[tid]) / 1000;
+  $v = @v[tid];
+  if ($v < 0) {
+    $v = -$v;
+  }
+
+  /* Raster input into 10000-wide buckets: 0, 10000, 20000, ... */
+  $bucket = ((uint64)$v / 10000) * 10000;
+
+  @count[$bucket] = count();
+  @avg_us[$bucket] = avg($dur_us);
+
+  delete(@start[tid]);
+  delete(@v[tid]);
+}
+
+interval:s:10
+{
+  print(@count);
+  print(@avg_us);
+  clear(@count);
+  clear(@avg_us);
+}
+
+END
+{
+  clear(@start);
+  clear(@v);
+}

@@ -6,14 +6,14 @@ This repository contains the supplemental material for my talk ['Profiling Postg
 ```sql
 CREATE EXTENSION pg_slow;
 CREATE TABLE data(value INT);
-INSERT INTO data(value) SELECT generate_series(1, 100000);
+INSERT INTO data(value) SELECT generate_series(1, 50000);
 ```
 
 ```sql
 db1=# EXPLAIN (VERBOSE, ANALYZE) SELECT value, (value%2)::boolean FROM data;
                                                        QUERY PLAN                                                        
 -------------------------------------------------------------------------------------------------------------------------
- Seq Scan on public.data  (cost=0.00..16925.00 rows=10000 width=8) (actual time=0.057..85.583 rows=10000.00 loops=1)
+ Seq Scan on public.data  (cost=0.00..16925.00 rows=50000 width=8) (actual time=0.057..85.583 rows=50000.00 loops=1)
    Output: value, (value % 2)
    Buffers: shared hit=4425
  Planning Time: 0.112 ms
@@ -25,16 +25,28 @@ Time: 118.821 ms
 
 ```sql
 db1=# EXPLAIN (VERBOSE, ANALYZE) SELECT value, is_odd_slow(value) FROM data;
-                                                       QUERY PLAN                                                        
--------------------------------------------------------------------------------------------------------------------------
- Seq Scan on public.data  (cost=0.00..16925.00 rows=10000 width=5) (actual time=0.174..95.195 rows=10000.00 loops=1)
+                                                      QUERY PLAN                                                      
+----------------------------------------------------------------------------------------------------------------------
+ Seq Scan on public.data  (cost=0.00..847.00 rows=50000 width=5) (actual time=0.115..40355.950 rows=50000.00 loops=1)
    Output: value, is_odd_slow(value)
-   Buffers: shared hit=4425
- Planning Time: 0.353 ms
- Execution Time: 123.223 ms
-(5 rows)
+   Buffers: shared hit=222
+ Planning:
+   Buffers: shared hit=20
+ Planning Time: 1.143 ms
+ Execution Time: 40358.846 ms
+(7 rows)
+```
 
-Time: 125.638 ms
+```sql
+db1=# EXPLAIN (VERBOSE, ANALYZE) SELECT value, is_odd_fast(value) FROM data;
+                                                    QUERY PLAN                                                     
+-------------------------------------------------------------------------------------------------------------------
+ Seq Scan on public.data  (cost=0.00..847.00 rows=50000 width=5) (actual time=0.072..10.066 rows=50000.00 loops=1)
+   Output: value, is_odd_fast(value)
+   Buffers: shared hit=222
+ Planning Time: 0.512 ms
+ Execution Time: 13.089 ms
+(5 rows)
 ```
 
 ```sql
@@ -51,6 +63,14 @@ db1=# SELECT value, (value%2)::boolean, is_odd_slow(value) FROM data LIMIT 5;
 
 ```sql
 SELECT count(*) AS mismatch_count FROM data WHERE (value % 2)::boolean <> is_odd_slow(value);
+```
+
+```
+db1=# SELECT pg_backend_pid();
+ pg_backend_pid 
+----------------
+          59514
+(1 row)
 ```
 
 
@@ -74,15 +94,25 @@ perf_event_paranoid setting is 3:
 To make the adjusted perf_event_paranoid setting permanent preserve it
 in /etc/sysctl.conf (e.g. kernel.perf_event_paranoid = <setting>)
 ```
+## Funccount
 
+```
+$ sudo funccount-bpfcc /usr/local/postgresql-18.3/lib/pg_slow.so:'is_odd_slow|is_odd_1|is_odd_2|is_odd_3'
+FUNC                                    COUNT
+is_odd_1                                16666
+is_odd_2                                16667
+is_odd_3                                16667
+is_odd_slow                             50000
+Detaching...
+```
 
 ## Cliff
 ```
-$ sudo funclatency-bpfcc /usr/local/postgresql-18.3/lib/pg_slow.so:'is_odd_cliff'
-Tracing 1 functions for "/usr/local/postgresql-18.3/lib/pg_slow.so:is_odd_cliff"... Hit Ctrl-C to end.
+vscode ➜ /workspaces/pg-conf-ger-2026/src/pg_slow (main) $ sudo funclatency-bpfcc /usr/local/postgresql-18.3/lib/pg_slow.so:'is_odd_1'
+Tracing 1 functions for "/usr/local/postgresql-18.3/lib/pg_slow.so:is_odd_1"... Hit Ctrl-C to end.
 ^C
 
-Function = [unknown] [33619]
+Function = [unknown] [181624]
      nsecs               : count     distribution
          0 -> 1          : 0        |                                        |
          2 -> 3          : 0        |                                        |
@@ -93,21 +123,106 @@ Function = [unknown] [33619]
         64 -> 127        : 0        |                                        |
        128 -> 255        : 0        |                                        |
        256 -> 511        : 0        |                                        |
-       512 -> 1023       : 2629     |****************************************|
-      1024 -> 2047       : 363      |*****                                   |
-      2048 -> 4095       : 6        |                                        |
-      4096 -> 8191       : 0        |                                        |
+       512 -> 1023       : 0        |                                        |
+      1024 -> 2047       : 0        |                                        |
+      2048 -> 4095       : 0        |                                        |
+      4096 -> 8191       : 8        |                                        |
+      8192 -> 16383      : 21       |                                        |
+     16384 -> 32767      : 62       |                                        |
+     32768 -> 65535      : 386      |*                                       |
+     65536 -> 131071     : 1315     |******                                  |
+    131072 -> 262143     : 2323     |***********                             |
+    262144 -> 524287     : 4002     |********************                    |
+    524288 -> 1048575    : 7981     |****************************************|
+   1048576 -> 2097151    : 539      |**                                      |
+   2097152 -> 4194303    : 23       |                                        |
+   4194304 -> 8388607    : 6        |                                        |
+
+avg = 551582 nsecs, total: 9192671940 nsecs, count: 16666
+
+Detaching...
+
+Tracing 1 functions for "/usr/local/postgresql-18.3/lib/pg_slow.so:is_odd_2"... Hit Ctrl-C to end.
+^C
+Function = [unknown] [194278]
+     nsecs               : count     distribution
+         0 -> 1          : 0        |                                        |
+         2 -> 3          : 0        |                                        |
+         4 -> 7          : 0        |                                        |
+         8 -> 15         : 0        |                                        |
+        16 -> 31         : 0        |                                        |
+        32 -> 63         : 0        |                                        |
+        64 -> 127        : 0        |                                        |
+       128 -> 255        : 0        |                                        |
+       256 -> 511        : 0        |                                        |
+       512 -> 1023       : 12159    |****************************************|
+      1024 -> 2047       : 1154     |***                                     |
+      2048 -> 4095       : 11       |                                        |
+      4096 -> 8191       : 4        |                                        |
       8192 -> 16383      : 2        |                                        |
-     16384 -> 32767      : 0        |                                        |
+     16384 -> 32767      : 4        |                                        |
      32768 -> 65535      : 0        |                                        |
      65536 -> 131071     : 0        |                                        |
-    131072 -> 262143     : 331      |*****                                   |
-    262144 -> 524287     : 2        |                                        |
+    131072 -> 262143     : 0        |                                        |
+    262144 -> 524287     : 3047     |**********                              |
+    524288 -> 1048575    : 286      |                                        |
+
+avg = 101829 nsecs, total: 1697188060 nsecs, count: 16667
+
+Tracing 1 functions for "/usr/local/postgresql-18.3/lib/pg_slow.so:is_odd_3"... Hit Ctrl-C to end.
+^C
+
+Function = [unknown] [170697]
+               nsecs                         : count     distribution
+                   0 -> 1                    : 0        |                    |
+                   2 -> 3                    : 0        |                    |
+                   4 -> 7                    : 0        |                    |
+                   8 -> 15                   : 0        |                    |
+                  16 -> 31                   : 0        |                    |
+                  32 -> 63                   : 0        |                    |
+                  64 -> 127                  : 0        |                    |
+                 128 -> 255                  : 0        |                    |
+                 256 -> 511                  : 0        |                    |
+                 512 -> 1023                 : 15088    |********************|
+                1024 -> 2047                 : 1224     |*                   |
+                2048 -> 4095                 : 326      |                    |
+                4096 -> 8191                 : 15       |                    |
+                8192 -> 16383                : 10       |                    |
+               16384 -> 32767                : 0        |                    |
+               32768 -> 65535                : 1        |                    |
+               65536 -> 131071               : 0        |                    |
+              131072 -> 262143               : 0        |                    |
+              262144 -> 524287               : 0        |                    |
+              524288 -> 1048575              : 0        |                    |
+             1048576 -> 2097151              : 0        |                    |
+             2097152 -> 4194303              : 0        |                    |
+             4194304 -> 8388607              : 0        |                    |
+             8388608 -> 16777215             : 0        |                    |
+            16777216 -> 33554431             : 0        |                    |
+            33554432 -> 67108863             : 0        |                    |
+            67108864 -> 134217727            : 0        |                    |
+           134217728 -> 268435455            : 0        |                    |
+           268435456 -> 536870911            : 0        |                    |
+           536870912 -> 1073741823           : 0        |                    |
+          1073741824 -> 2147483647           : 0        |                    |
+          2147483648 -> 4294967295           : 0        |                    |
+          4294967296 -> 8589934591           : 0        |                    |
+          8589934592 -> 17179869183          : 3        |                    |
+
+avg = 1802748 nsecs, total: 30046405110 nsecs, count: 16667
+
 ```
 
+perf record -a -g -F 111 -o data.perf -p 54221
+perf script -i data.perf > data.stacks
+~/FlameGraph/stackcollapse-perf.pl data.stacks > data.folded
+~/FlameGraph/flamegraph.pl data.folded > data.svg
+
+## Offline Flame Graphs
 sudo offcputime-bpfcc -df -p 1955 > out.stacks
+~/FlameGraph/flamegraph.pl --color=io --title="Off-CPU Time Flame Graph" --countname=us < out.stacks > out.svg
 
-
+## BPFTrace
 sudo bpftrace -e '
 uprobe:/usr/local/postgresql-18.3/lib/pg_slow.so:is_odd_cliff
 {

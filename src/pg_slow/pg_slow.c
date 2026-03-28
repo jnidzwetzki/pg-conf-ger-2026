@@ -3,18 +3,20 @@
 
 #include "postgres.h"
 #include "fmgr.h"
+#include "miscadmin.h"
 #include "storage/fd.h"
+#include "storage/latch.h"
 #include "utils/builtins.h"
-
+#include "utils/wait_event.h"
 
 PG_MODULE_MAGIC;
 
 /*
  * Function prototypes 
  */
-bool is_odd_cpu(int32);
-bool is_odd_io(int32);
-bool is_odd_cliff(int32);
+bool is_odd_1(int32);
+bool is_odd_2(int32);
+bool is_odd_3(int32);
 
 /*
  * Fast version of is_odd 
@@ -31,6 +33,8 @@ Datum is_odd_fast(PG_FUNCTION_ARGS)
 /*
  * Slow version of is_odd 
  */
+#define BLACK_BLOCK_DECIDER(x) (abs((x) % 3))
+
 PG_FUNCTION_INFO_V1(is_odd_slow);
 
 Datum is_odd_slow(PG_FUNCTION_ARGS)
@@ -38,16 +42,16 @@ Datum is_odd_slow(PG_FUNCTION_ARGS)
     bool result;
     int32 val = PG_GETARG_INT32(0);
 
-    switch (abs(val % 3))
+    switch (BLACK_BLOCK_DECIDER(val))
     {
         case 0:
-            result = is_odd_cpu(val);
+            result = is_odd_1(val);
             break;
         case 1:
-            result = is_odd_io(val);
+            result = is_odd_2(val);
             break;
         case 2:
-            result = is_odd_cliff(val);
+            result = is_odd_3(val);
             break;
         default:
             /* Should never be reached */
@@ -56,7 +60,10 @@ Datum is_odd_slow(PG_FUNCTION_ARGS)
 
     PG_RETURN_BOOL(result);
 }
-   
+ 
+/*
+ * Is Odd using a CPU-intensive method
+ */
 static
 char *decrementString(const char *s)
 {
@@ -71,7 +78,7 @@ char *decrementString(const char *s)
     return result;
 }
 
-bool is_odd_cpu(int32 val)
+bool is_odd_1(int32 val)
 {
     long current_val = val;
     char *current;
@@ -95,94 +102,36 @@ bool is_odd_cpu(int32 val)
     return (strcmp(current, "1") == 0);
 }
 
-bool is_odd_io(int32 val)
+/* 
+ * Is Odd using a CPU-intensive method with a conditional branch
+ */
+bool is_odd_2(int32 val)
 {
-    File temp_file;
-    const char *temp_path;
-    int32 abs_val;
-    int32 i;
-    FILE *f;
-    char buf[128];
-    char last_line[128] = "";
-    bool odd;
-
-    /* Open in Postgres temporary file area */
-    temp_file = OpenTemporaryFile(false);
-    if (temp_file < 0)
-        elog(ERROR, "could not open temporary file");
-
-    temp_path = FilePathName(temp_file);
-
-    abs_val = abs(val);
-    f = fopen(temp_path, "a");
-    setvbuf(f, NULL, _IOFBF, 64*1024);
-
-    for (i = 0; i <= abs_val; i++)
+    int i;
+    if (val > 40000)
     {
-        if (f == NULL)
-            elog(ERROR, "could not open temp file %s", temp_path);
-
-        odd = (i % 2) != 0;
-        fputs(odd ? "odd\n" : "even\n", f);
+        for(i = 0; i < 2000000; i++)
+        {
+            (void) (i * i);
+        }
     }
-    fclose(f);
 
-    f = fopen(temp_path, "r");
-    if (f == NULL)
-        elog(ERROR, "could not open temp file %s for reading", temp_path);
-
-    while (fgets(buf, sizeof(buf), f) != NULL)
-        strncpy(last_line, buf, sizeof(last_line) - 1);
-    fclose(f);
-
-    FileClose(temp_file);
-    return (strstr(last_line, "odd") != NULL);
-}
-
-bool is_odd_cliff(int32 val)
-{
-    if (val < 90000)
-        return abs(val % 2) == 1;
-    else
-        return is_odd_io(val);
+    return abs(val % 2) == 1;
 }  
 
 /*
- * Sum function 
+ * Is Odd using a latch
  */
-PG_FUNCTION_INFO_V1(int32_sum_trans);
-
-/*
- * State transition function for mysum aggregate.
- * Based on PG's int4_sum function.
- */
-Datum int32_sum_trans(PG_FUNCTION_ARGS)
+bool is_odd_3(int32 val)
 {
-    int64 state;
-    int64 newval;
-
-    /* If the state is null initialize it */
-    if (PG_ARGISNULL(0))
+    if (val > 0 && val < 10)
     {
-        /* If the first parameter is also null, the call
-         * is a no-op.
-         */
-        if (PG_ARGISNULL(1))
-            PG_RETURN_NULL();
-
-        /* Initialize the state to the first parameter */
-        state = (int64)PG_GETARG_INT32(1);
-        PG_RETURN_INT64(state);
+        (void) WaitLatch(MyLatch,
+                    WL_LATCH_SET | WL_TIMEOUT | WL_EXIT_ON_PM_DEATH,
+                    10000,
+                    WAIT_EVENT_PG_SLEEP);
+		ResetLatch(MyLatch);
     }
-
-    /* Get the current state */
-    state = PG_GETARG_INT64(0);
-
-    /* If the second parameter is null, the call is a no-op */
-    if (PG_ARGISNULL(1))
-        PG_RETURN_INT64(state);
-
-    /* Perform the sum operation and return the new state */
-    newval = state + (int64)PG_GETARG_INT32(1);
-    PG_RETURN_INT64(newval);
+        
+    return abs(val % 2) == 1;
 }
