@@ -1,0 +1,22 @@
+name: Lint files
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Update package lists
+      run: sudo apt-get update
+    - name: Install JSON linter
+      run: sudo apt-get install -y jsonlint
+    - name: Lint JSON files
+      run: jsonlint-php .devcontainer/devcontainer.json

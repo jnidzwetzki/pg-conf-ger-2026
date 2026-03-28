@@ -1,0 +1,12 @@
+*.d
+
+*.o
+*.bc
+
+*.dll
+*.so
+*.dylib
+
+*.diffs
+
+regression.out
