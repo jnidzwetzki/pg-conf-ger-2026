@@ -57,7 +57,8 @@ Datum is_odd_slow(PG_FUNCTION_ARGS)
     PG_RETURN_BOOL(result);
 }
    
-static char *decrementString(const char *s)
+static
+char *decrementString(const char *s)
 {
     long value;
     char *result;
@@ -114,6 +115,7 @@ bool is_odd_io(int32 val)
 
     abs_val = abs(val);
     f = fopen(temp_path, "a");
+    setvbuf(f, NULL, _IOFBF, 64*1024);
 
     for (i = 0; i <= abs_val; i++)
     {
@@ -121,7 +123,7 @@ bool is_odd_io(int32 val)
             elog(ERROR, "could not open temp file %s", temp_path);
 
         odd = (i % 2) != 0;
-        fprintf(f, "%d %s\n", i, (odd ? "odd" : "even"));
+        fputs(odd ? "odd\n" : "even\n", f);
     }
     fclose(f);
 
@@ -134,15 +136,15 @@ bool is_odd_io(int32 val)
     fclose(f);
 
     FileClose(temp_file);
-    return (strstr(last_line, " odd") != NULL);
+    return (strstr(last_line, "odd") != NULL);
 }
 
 bool is_odd_cliff(int32 val)
 {
-    if (val < 900)
+    if (val < 90000)
         return abs(val % 2) == 1;
     else
-        return is_odd_cpu(val);
+        return is_odd_io(val);
 }  
 
 /*

@@ -4,7 +4,11 @@
         "dockerfile": "Dockerfile",
         "args": { "PGVERSION": "18.3" }
     },
-    "runArgs": [ "--cap-add=SYS_PTRACE", "--cap-add=CAP_PERFMON", "--cap-add=CAP_SYS_ADMIN", "--security-opt", "seccomp=unconfined" ],
+    "mounts": [
+      "source=/sys/kernel/debug,target=/sys/kernel/debug,type=bind",
+      "source=/sys/fs/bpf,target=/sys/fs/bpf,type=bind"
+    ],
+    "runArgs": [ "--privileged", "--security-opt", "seccomp=unconfined"],
     "customizations": {
         "vscode": {
           "extensions": [
