@@ -26,7 +26,7 @@ PG_FUNCTION_INFO_V1(is_odd_fast);
 Datum is_odd_fast(PG_FUNCTION_ARGS)
 {
     int32 val = PG_GETARG_INT32(0);
-    bool result = abs(val % 2) == 1;
+    bool result = (val & 1) != 0;
     PG_RETURN_BOOL(result);
 }
    
@@ -64,7 +64,6 @@ Datum is_odd_slow(PG_FUNCTION_ARGS)
 /*
  * Is Odd using a CPU-intensive method
  */
-static
 char *decrementString(const char *s)
 {
     long value;
@@ -99,7 +98,9 @@ bool is_odd_1(int32 val)
         current = next;
     }
 
-    return (strcmp(current, "1") == 0);
+    bool is_odd = (strcmp(current, "1") == 0);
+    pfree(current);
+    return is_odd;
 }
 
 /* 
@@ -116,7 +117,7 @@ bool is_odd_2(int32 val)
         }
     }
 
-    return abs(val % 2) == 1;
+    return (val & 1) != 0;
 }  
 
 /*
@@ -133,5 +134,5 @@ bool is_odd_3(int32 val)
 		ResetLatch(MyLatch);
     }
         
-    return abs(val % 2) == 1;
+    return (val & 1) != 0;
 }
