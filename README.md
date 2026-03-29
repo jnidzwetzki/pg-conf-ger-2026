@@ -213,7 +213,8 @@ avg = 1802748 nsecs, total: 30046405110 nsecs, count: 16667
 
 ```
 
-perf record -a -g -F 111 -o data.perf -p 54221
+#perf record -a -g -F 111 -o data.perf -p 54221
+perf record -g -F 111 -o data.perf -p 54221
 perf script -i data.perf > data.stacks
 ~/FlameGraph/stackcollapse-perf.pl data.stacks > data.folded
 ~/FlameGraph/flamegraph.pl data.folded > data.svg

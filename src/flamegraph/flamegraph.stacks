@@ -1,0 +1,2714 @@
+flamegraph-work   95337 26507.485093:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.494098:    9009009 task-clock:ppp: 
+	    aaaab48b0a80 func3+0x60 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.503110:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.512116:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.521125:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.530134:    9009009 task-clock:ppp: 
+	    aaaab48b09c0 func2+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.539144:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.548152:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.557160:    9009009 task-clock:ppp: 
+	    aaaab48b09b4 func2+0x2c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.566198:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.575205:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.584212:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.593219:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.602235:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.611237:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.620246:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.629256:    9009009 task-clock:ppp: 
+	    aaaab48b0a54 func3+0x34 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.638267:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.647273:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.656283:    9009009 task-clock:ppp: 
+	    aaaab48b0a58 func3+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.665291:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.674299:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.683308:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.692317:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.701326:    9009009 task-clock:ppp: 
+	    aaaab48b0a60 func3+0x40 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.710335:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.719344:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.728353:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.737361:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.746370:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.755379:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.764388:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.773397:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.782406:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.791415:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.800423:    9009009 task-clock:ppp: 
+	    aaaab48b0a14 func3a+0x44 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.809432:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.818441:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.827450:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.836459:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.845468:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.854482:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.863524:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.872532:    9009009 task-clock:ppp: 
+	    aaaab48b09f0 func3a+0x20 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.881539:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.890547:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.899556:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.908565:    9009009 task-clock:ppp: 
+	    aaaab48b0a64 func3+0x44 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.917574:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.926583:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.935591:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.944600:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.953609:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.962618:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.971627:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.980646:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.989649:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26507.998654:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.007663:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.016676:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.025686:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.034693:    9009009 task-clock:ppp: 
+	    aaaab48b0a88 func3+0x68 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.043712:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.052711:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.061720:    9009009 task-clock:ppp: 
+	    aaaab48b0a64 func3+0x44 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.070766:    9009009 task-clock:ppp: 
+	    aaaab48b0978 func1+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.079781:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.088790:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.097801:    9009009 task-clock:ppp: 
+	    aaaab48b09bc func2+0x34 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.106808:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.115816:    9009009 task-clock:ppp: 
+	    aaaab48b0a60 func3+0x40 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.124825:    9009009 task-clock:ppp: 
+	    aaaab48b09b0 func2+0x28 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.133834:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.142843:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.151852:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.160861:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.169870:    9009009 task-clock:ppp: 
+	    aaaab48b09bc func2+0x34 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.178879:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.187887:    9009009 task-clock:ppp: 
+	    aaaab48b0a04 func3a+0x34 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.196896:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.205906:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.214914:    9009009 task-clock:ppp: 
+	    aaaab48b0a0c func3a+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.223928:    9009009 task-clock:ppp: 
+	    aaaab48b0a88 func3+0x68 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.232932:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.241941:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.250950:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.259958:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.269005:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.278014:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.287023:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.296033:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.305041:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.314049:    9009009 task-clock:ppp: 
+	    aaaab48b0a0c func3a+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.323058:    9009009 task-clock:ppp: 
+	    aaaab48b0a88 func3+0x68 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.332067:    9009009 task-clock:ppp: 
+	    aaaab48b0a5c func3+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.341076:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.350085:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.359094:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.368103:    9009009 task-clock:ppp: 
+	    aaaab48b0a5c func3+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.377112:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.386120:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.395129:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.404138:    9009009 task-clock:ppp: 
+	    aaaab48b0a50 func3+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.413147:    9009009 task-clock:ppp: 
+	    aaaab48b0a0c func3a+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.422157:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.431165:    9009009 task-clock:ppp: 
+	    aaaab48b09bc func2+0x34 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.440174:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.449188:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.458191:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.467200:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.476235:    9009009 task-clock:ppp: 
+	    aaaab48b09b4 func2+0x2c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.485243:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.494252:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.503264:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.512270:    9009009 task-clock:ppp: 
+	    aaaab48b0a88 func3+0x68 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.521279:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.530308:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.539301:    9009009 task-clock:ppp: 
+	    aaaab48b0a88 func3+0x68 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.548306:    9009009 task-clock:ppp: 
+	    aaaab48b0a58 func3+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.557316:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.566323:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.575332:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.584341:    9009009 task-clock:ppp: 
+	    aaaab48b09ac func2+0x24 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.593350:    9009009 task-clock:ppp: 
+	    aaaab48b09b8 func2+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.602359:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.611367:    9009009 task-clock:ppp: 
+	    aaaab48b09f0 func3a+0x20 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.620377:    9009009 task-clock:ppp: 
+	    aaaab48b09b0 func2+0x28 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.629386:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.638402:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.647418:    9009009 task-clock:ppp: 
+	    aaaab48b0a0c func3a+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.656412:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.665421:    9009009 task-clock:ppp: 
+	    aaaab48b0970 func1+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.674430:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.683468:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.692477:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.701485:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.710497:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.719505:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.728512:    9009009 task-clock:ppp: 
+	    aaaab48b0980 func1+0x40 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.737521:    9009009 task-clock:ppp: 
+	    aaaab48b0a50 func3+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.746568:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.755540:    9009009 task-clock:ppp: 
+	    aaaab48b0a80 func3+0x60 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.764548:    9009009 task-clock:ppp: 
+	    aaaab48b0a88 func3+0x68 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.773558:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.782565:    9009009 task-clock:ppp: 
+	    aaaab48b09b4 func2+0x2c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.791575:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.800583:    9009009 task-clock:ppp: 
+	    aaaab48b0a0c func3a+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.809592:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.818601:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.827610:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.836619:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.845639:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.854654:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.863651:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.872660:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.881701:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.890709:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.899718:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.908727:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.917736:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.926745:    9009009 task-clock:ppp: 
+	    aaaab48b0a5c func3+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.935754:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.944764:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.953779:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.962793:    9009009 task-clock:ppp: 
+	    aaaab48b09f0 func3a+0x20 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.971791:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.980800:    9009009 task-clock:ppp: 
+	    aaaab48b09f0 func3a+0x20 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.989810:    9009009 task-clock:ppp: 
+	    aaaab48b0a88 func3+0x68 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26508.998845:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.007857:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.016847:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.025852:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.034862:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.043871:    9009009 task-clock:ppp: 
+	    aaaab48b0a94 func3+0x74 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.052878:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.061888:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.070904:    9009009 task-clock:ppp: 
+	    aaaab48b0a64 func3+0x44 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.079914:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.088979:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.097990:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.106999:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.116024:    9009009 task-clock:ppp: 
+	    aaaab48b0964 func1+0x24 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.125016:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.134027:    9009009 task-clock:ppp: 
+	    aaaab48b0a64 func3+0x44 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.143044:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.152044:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.161050:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.170057:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.179065:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.188075:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.197083:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.206092:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.215101:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.224111:    9009009 task-clock:ppp: 
+	    aaaab48b0a0c func3a+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.233120:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.242128:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.251136:    9009009 task-clock:ppp: 
+	    aaaab48b0a94 func3+0x74 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.260145:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.269168:    9009009 task-clock:ppp: 
+	    aaaab48b09bc func2+0x34 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.278172:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.287181:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.296219:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.305228:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.314239:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.323246:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.332255:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.341264:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.350272:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.359281:    9009009 task-clock:ppp: 
+	    aaaab48b0a5c func3+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.368290:    9009009 task-clock:ppp: 
+	    aaaab48b09ac func2+0x24 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.377299:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.386308:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.395317:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.404326:    9009009 task-clock:ppp: 
+	    aaaab48b0a94 func3+0x74 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.413335:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.422343:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.431352:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.440361:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.449370:    9009009 task-clock:ppp: 
+	    aaaab48b0a5c func3+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.458379:    9009009 task-clock:ppp: 
+	    aaaab48b09ac func2+0x24 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.467388:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.476397:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.485406:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.494446:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.503454:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.512463:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.521472:    9009009 task-clock:ppp: 
+	    aaaab48b0964 func1+0x24 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.530481:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.539490:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.548508:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.557512:    9009009 task-clock:ppp: 
+	    aaaab48b0a50 func3+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.566516:    9009009 task-clock:ppp: 
+	    aaaab48b09f0 func3a+0x20 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.575525:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.584537:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.593546:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.602558:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.611565:    9009009 task-clock:ppp: 
+	    aaaab48b09f0 func3a+0x20 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.620573:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.629582:    9009009 task-clock:ppp: 
+	    aaaab48b0a50 func3+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.638594:    9009009 task-clock:ppp: 
+	    aaaab48b0970 func1+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.647599:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.656608:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.665617:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.674626:    9009009 task-clock:ppp: 
+	    aaaab48b0970 func1+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.683660:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.692669:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.701702:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.710711:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.719721:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.728729:    9009009 task-clock:ppp: 
+	    aaaab48b0a0c func3a+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.737738:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.746747:    9009009 task-clock:ppp: 
+	    aaaab48b0a70 func3+0x50 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.755756:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.764764:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.773777:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.782786:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.791794:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.800803:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.809812:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.818821:    9009009 task-clock:ppp: 
+	    aaaab48b09bc func2+0x34 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.827830:    9009009 task-clock:ppp: 
+	    aaaab48b0980 func1+0x40 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.836839:    9009009 task-clock:ppp: 
+	    aaaab48b0a50 func3+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.845847:    9009009 task-clock:ppp: 
+	    aaaab48b0974 func1+0x34 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.854856:    9009009 task-clock:ppp: 
+	    aaaab48b0a14 func3a+0x44 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.863865:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.872876:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.881889:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.890894:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.899903:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.908925:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.917934:    9009009 task-clock:ppp: 
+	    aaaab48b0a14 func3a+0x44 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.926943:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.935954:    9009009 task-clock:ppp: 
+	    aaaab48b0984 func1+0x44 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.944964:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.953972:    9009009 task-clock:ppp: 
+	    aaaab48b0a54 func3+0x34 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.962981:    9009009 task-clock:ppp: 
+	    aaaab48b09b4 func2+0x2c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.971990:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.980998:    9009009 task-clock:ppp: 
+	    aaaab48b0a80 func3+0x60 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.990007:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26509.999019:    9009009 task-clock:ppp: 
+	    aaaab48b0a14 func3a+0x44 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.008028:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.017037:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.026046:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.035056:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.044065:    9009009 task-clock:ppp: 
+	    aaaab48b09f0 func3a+0x20 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.053073:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.062082:    9009009 task-clock:ppp: 
+	    aaaab48b09c0 func2+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.071091:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.080100:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.089109:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.098118:    9009009 task-clock:ppp: 
+	    aaaab48b09c0 func2+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.107151:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.116160:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.125168:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.134177:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.143186:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.152195:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.161204:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.170213:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.179222:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.188230:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.197239:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.206248:    9009009 task-clock:ppp: 
+	    aaaab48b09cc func2+0x44 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.215257:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.224266:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.233276:    9009009 task-clock:ppp: 
+	    aaaab48b0a88 func3+0x68 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.242283:    9009009 task-clock:ppp: 
+	    aaaab48b096c func1+0x2c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.251293:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.260301:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.269310:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.278320:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.287328:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.296337:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.305346:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.314370:    9009009 task-clock:ppp: 
+	    aaaab48b09b4 func2+0x2c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.323379:    9009009 task-clock:ppp: 
+	    aaaab48b09c0 func2+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.332388:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.341397:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.350406:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.359414:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.368423:    9009009 task-clock:ppp: 
+	    aaaab48b09bc func2+0x34 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.377433:    9009009 task-clock:ppp: 
+	    aaaab48b0a80 func3+0x60 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.386441:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.395450:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.404459:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.413468:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.422477:    9009009 task-clock:ppp: 
+	    aaaab48b09b4 func2+0x2c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.431486:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.440494:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.449503:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.458512:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.467521:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.476530:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.485539:    9009009 task-clock:ppp: 
+	    aaaab48b0a54 func3+0x34 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.494548:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.503557:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.512565:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.521594:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.530603:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.539612:    9009009 task-clock:ppp: 
+	    aaaab48b0a84 func3+0x64 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.548621:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.557629:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.566660:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.575651:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.584660:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.593665:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.602674:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.611687:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.620693:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.629700:    9009009 task-clock:ppp: 
+	    aaaab48b0a64 func3+0x44 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.638710:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.647718:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.656727:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.665736:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.674745:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.683754:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.692763:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.701771:    9009009 task-clock:ppp: 
+	    aaaab48b0a50 func3+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.710780:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.719823:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.728832:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.737841:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.746850:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.755859:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.764867:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.773876:    9009009 task-clock:ppp: 
+	    aaaab48b0a0c func3a+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.782885:    9009009 task-clock:ppp: 
+	    aaaab48b0a80 func3+0x60 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.791894:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.800903:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.809912:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.818921:    9009009 task-clock:ppp: 
+	    aaaab48b09ec func3a+0x1c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.827930:    9009009 task-clock:ppp: 
+	    aaaab48b097c func1+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b072f main+0x6f (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.836938:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.845947:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.854956:    9009009 task-clock:ppp: 
+	    aaaab48b0a68 func3+0x48 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.863969:    9009009 task-clock:ppp: 
+	    aaaab48b0a08 func3a+0x38 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b0a87 func3+0x67 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b074c main+0x8c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
+flamegraph-work   95337 26510.872981:    9009009 task-clock:ppp: 
+	    aaaab48b09c4 func2+0x3c (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    aaaab48b073b main+0x7b (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+	    ffff98fd221c [unknown] (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    ffff98fd22fc __libc_start_main+0x9c (/usr/lib/aarch64-linux-gnu/libc.so.6)
+	    aaaab48b0830 _start+0x30 (/workspaces/pg-conf-ger-2026/src/flamegraph/flamegraph-workload)
+
