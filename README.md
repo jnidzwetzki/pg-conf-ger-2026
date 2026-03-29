@@ -293,3 +293,73 @@ interval:s:10
     clear(@duration_by_bucket);
 }
 '
+
+## Problem with inlining
+
+### Release build
+```
+Tracing 4 functions for "b'/home/jan/postgresql-sandbox/bin/REL_17_1_RELEASE/lib/pg_slow.so:is_odd_slow|is_odd_1|is_odd_2|is_odd_3'"... Hit Ctrl-C to end.
+^C
+FUNC                                    COUNT
+is_odd_1                                16665
+is_odd_slow                             49995
+Detaching...
+```
+
+
+## Releae and static
+-fvisibility=hidden
+
+```
+Tracing 1 functions for "b'/home/jan/postgresql-sandbox/bin/REL_17_1_RELEASE/lib/pg_slow.so:is_odd_slow|is_odd_1|is_odd_2|is_odd_3'"... Hit Ctrl-C to end.
+^C
+FUNC                                    COUNT
+is_odd_slow                                 8
+Detaching...
+```
+
+
+jan@debian-arm64:~/git/pg-conf-ger-2026 (main)$ sudo bpftrace -e 'uprobe:/home/jan/postgresql-sandbox/bin/REL_17_1_RELEASE/lib/pg_slow.so:is_odd_1 { printf("function hit\n"); }'
+Attaching 1 probe...
+ERROR: Could not resolve symbol: /home/jan/postgresql-sandbox/bin/REL_17_1_RELEASE/lib/pg_slow.so:is_odd_1, cannot attach probe.
+
+jan@debian-arm64:~/git/pg-conf-ger-2026 (main)$ sudo bpftrace -e 'uprobe:/home/jan/postgresql-sandbox/bin/REL_17_1_DEBUG/lib/pg_slow.so:is_odd_1 { printf("function hit\n"); }'
+Attaching 1 probe...
+
+
+
+readelf --debug-dump=info /home/jan/postgresql-sandbox/bin/REL_17_1_RELEASE/lib/pg_slow.so | less
+
+ <1><1180>: Abbrev Number: 15 (DW_TAG_subprogram)
+    <1181>   DW_AT_name        : (indirect string, offset: 0x22b5): is_odd_1
+    <1185>   DW_AT_decl_file   : 1
+    <1186>   DW_AT_decl_line   : 81
+    <1187>   DW_AT_decl_column : 6
+    <1188>   DW_AT_prototyped  : 1
+    <1188>   DW_AT_type        : <0x125>
+    <118c>   DW_AT_inline      : 1      (inlined)
+    <118d>   DW_AT_sibling     : <0x11c1>
+
+pg_noinline
+
+ <1><11da>: Abbrev Number: 17 (DW_TAG_subprogram)
+    <11db>   DW_AT_name        : (indirect string, offset: 0x22b5): is_odd_1
+    <11df>   DW_AT_decl_file   : 1
+    <11df>   DW_AT_decl_line   : 82
+    <11e0>   DW_AT_decl_column : 6
+    <11e1>   DW_AT_prototyped  : 1
+    <11e1>   DW_AT_type        : <0x125>
+    <11e5>   DW_AT_low_pc      : 0x920
+    <11ed>   DW_AT_high_pc     : 0x94
+    <11f5>   DW_AT_frame_base  : 1 byte block: 9c       (DW_OP_call_frame_cfa)
+    <11f7>   DW_AT_call_all_calls: 1
+    <11f7>   DW_AT_sibling     : <0x12c9>
+
+
+jan@debian-arm64:~/git/pg-conf-ger-2026 (main)$ sudo bpftrace -e 'uprobe:/home/jan/postgresql-sandbox/bin/REL_17_1_RELEASE/lib/pg_slow.so:is_odd_1 { printf("function hit\n"); }'
+Attaching 1 probe...
+function hit
+function hit
+
+
+=> Alternative are static trace points
