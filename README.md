@@ -3,6 +3,7 @@
 This repository contains the supplemental material for my talk ['Profiling PostgreSQL: perf, Flame Graphs, and eBPF Tools in Practice
 '](https://www.postgresql.eu/events/pgconfde2026/schedule/session/7538-profiling-postgresql-perf-flame-graphs-and-ebpf-tools-in-practice/) at PostgreSQL Conf Ger 2026.
 
+## Environment
 ```sql
 CREATE EXTENSION pg_slow;
 CREATE TABLE data(value INT);
@@ -94,6 +95,7 @@ perf_event_paranoid setting is 3:
 To make the adjusted perf_event_paranoid setting permanent preserve it
 in /etc/sysctl.conf (e.g. kernel.perf_event_paranoid = <setting>)
 ```
+
 ## Funccount
 
 ```
@@ -324,14 +326,16 @@ is_odd_slow                                 8
 Detaching...
 ```
 
-
+```
 jan@debian-arm64:~/git/pg-conf-ger-2026 (main)$ sudo bpftrace -e 'uprobe:/home/jan/postgresql-sandbox/bin/REL_17_1_RELEASE/lib/pg_slow.so:is_odd_1 { printf("function hit\n"); }'
 Attaching 1 probe...
 ERROR: Could not resolve symbol: /home/jan/postgresql-sandbox/bin/REL_17_1_RELEASE/lib/pg_slow.so:is_odd_1, cannot attach probe.
+```
 
+```
 jan@debian-arm64:~/git/pg-conf-ger-2026 (main)$ sudo bpftrace -e 'uprobe:/home/jan/postgresql-sandbox/bin/REL_17_1_DEBUG/lib/pg_slow.so:is_odd_1 { printf("function hit\n"); }'
 Attaching 1 probe...
-
+```
 
 ## Readelf
 ```
