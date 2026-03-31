@@ -431,44 +431,44 @@
 <text id="matched" x="1090.00" y="181" > </text>
 <g id="frames">
 <g >
-<title>main (3,396,396,393 samples, 100.00%)</title><rect x="10.0" y="69" width="1180.0" height="15.0" fill="rgb(243,179,42)" rx="2" ry="2" />
+<title>func3 (6,720,720,714 samples, 64.98%)</title><rect x="423.2" y="53" width="766.8" height="15.0" fill="rgb(219,65,15)" rx="2" ry="2" />
+<text  x="426.21" y="63.5" >func3</text>
+</g>
+<g >
+<title>main (10,342,342,332 samples, 100.00%)</title><rect x="10.0" y="69" width="1180.0" height="15.0" fill="rgb(243,179,42)" rx="2" ry="2" />
 <text  x="13.00" y="79.5" >main</text>
 </g>
 <g >
-<title>_start (3,396,396,393 samples, 100.00%)</title><rect x="10.0" y="117" width="1180.0" height="15.0" fill="rgb(245,185,44)" rx="2" ry="2" />
-<text  x="13.00" y="127.5" >_start</text>
-</g>
-<g >
-<title>func1 (594,594,594 samples, 17.51%)</title><rect x="10.0" y="53" width="206.6" height="15.0" fill="rgb(232,125,29)" rx="2" ry="2" />
-<text  x="13.00" y="63.5" >func1</text>
-</g>
-<g >
-<title>flamegraph-work (3,396,396,393 samples, 100.00%)</title><rect x="10.0" y="133" width="1180.0" height="15.0" fill="rgb(245,188,45)" rx="2" ry="2" />
-<text  x="13.00" y="143.5" >flamegraph-work</text>
-</g>
-<g >
-<title>[libc.so.6] (3,396,396,393 samples, 100.00%)</title><rect x="10.0" y="85" width="1180.0" height="15.0" fill="rgb(223,84,20)" rx="2" ry="2" />
-<text  x="13.00" y="95.5" >[libc.so.6]</text>
-</g>
-<g >
-<title>__libc_start_main (3,396,396,393 samples, 100.00%)</title><rect x="10.0" y="101" width="1180.0" height="15.0" fill="rgb(236,142,34)" rx="2" ry="2" />
-<text  x="13.00" y="111.5" >__libc_start_main</text>
-</g>
-<g >
-<title>func2 (1,018,018,017 samples, 29.97%)</title><rect x="216.6" y="53" width="353.7" height="15.0" fill="rgb(225,95,22)" rx="2" ry="2" />
-<text  x="219.58" y="63.5" >func2</text>
-</g>
-<g >
-<title>all (3,396,396,393 samples, 100%)</title><rect x="10.0" y="149" width="1180.0" height="15.0" fill="rgb(213,39,9)" rx="2" ry="2" />
+<title>all (10,342,342,332 samples, 100%)</title><rect x="10.0" y="149" width="1180.0" height="15.0" fill="rgb(213,39,9)" rx="2" ry="2" />
 <text  x="13.00" y="159.5" ></text>
 </g>
 <g >
-<title>func3 (1,783,783,782 samples, 52.52%)</title><rect x="570.3" y="53" width="619.7" height="15.0" fill="rgb(219,65,15)" rx="2" ry="2" />
-<text  x="573.27" y="63.5" >func3</text>
+<title>__libc_start_main (10,342,342,332 samples, 100.00%)</title><rect x="10.0" y="101" width="1180.0" height="15.0" fill="rgb(236,142,34)" rx="2" ry="2" />
+<text  x="13.00" y="111.5" >__libc_start_main</text>
 </g>
 <g >
-<title>func3a (675,675,675 samples, 19.89%)</title><rect x="955.3" y="37" width="234.7" height="15.0" fill="rgb(242,173,41)" rx="2" ry="2" />
-<text  x="958.25" y="47.5" >func3a</text>
+<title>func1 (1,009,009,008 samples, 9.76%)</title><rect x="10.0" y="53" width="115.1" height="15.0" fill="rgb(232,125,29)" rx="2" ry="2" />
+<text  x="13.00" y="63.5" >func1</text>
+</g>
+<g >
+<title>[libc.so.6] (10,342,342,332 samples, 100.00%)</title><rect x="10.0" y="85" width="1180.0" height="15.0" fill="rgb(223,84,20)" rx="2" ry="2" />
+<text  x="13.00" y="95.5" >[libc.so.6]</text>
+</g>
+<g >
+<title>func3a (3,063,063,060 samples, 29.62%)</title><rect x="840.5" y="37" width="349.5" height="15.0" fill="rgb(242,173,41)" rx="2" ry="2" />
+<text  x="843.52" y="47.5" >func3a</text>
+</g>
+<g >
+<title>flamegraph-work (10,342,342,332 samples, 100.00%)</title><rect x="10.0" y="133" width="1180.0" height="15.0" fill="rgb(245,188,45)" rx="2" ry="2" />
+<text  x="13.00" y="143.5" >flamegraph-work</text>
+</g>
+<g >
+<title>_start (10,342,342,332 samples, 100.00%)</title><rect x="10.0" y="117" width="1180.0" height="15.0" fill="rgb(245,185,44)" rx="2" ry="2" />
+<text  x="13.00" y="127.5" >_start</text>
+</g>
+<g >
+<title>func2 (2,612,612,610 samples, 25.26%)</title><rect x="125.1" y="53" width="298.1" height="15.0" fill="rgb(225,95,22)" rx="2" ry="2" />
+<text  x="128.12" y="63.5" >func2</text>
 </g>
 </g>
 </svg>

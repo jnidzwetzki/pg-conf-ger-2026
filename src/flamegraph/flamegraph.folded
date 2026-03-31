@@ -1,4 +1,4 @@
-flamegraph-work;_start;__libc_start_main;[libc.so.6];main;func1 594594594
-flamegraph-work;_start;__libc_start_main;[libc.so.6];main;func2 1018018017
-flamegraph-work;_start;__libc_start_main;[libc.so.6];main;func3 1108108107
-flamegraph-work;_start;__libc_start_main;[libc.so.6];main;func3;func3a 675675675
+flamegraph-work;_start;__libc_start_main;[libc.so.6];main;func1 1009009008
+flamegraph-work;_start;__libc_start_main;[libc.so.6];main;func2 2612612610
+flamegraph-work;_start;__libc_start_main;[libc.so.6];main;func3 3657657654
+flamegraph-work;_start;__libc_start_main;[libc.so.6];main;func3;func3a 3063063060

@@ -20,31 +20,31 @@ uint64_t func1(uint64_t input) {
     return do_work(input, 100);
 }
 
-// 50% more than func1: 150 units
+// 100% more than func1: 200 units
 __attribute__((noinline))
 uint64_t func2(uint64_t input) {
-    return do_work(input, 150);
+    return do_work(input, 200);
 }
 
 // Called by func3 for about half of its extra work
 __attribute__((noinline))
 uint64_t func3a(uint64_t input) {
-    return do_work(input ^ 0xdeadbeefcafebabeULL, 1);
+    return do_work(input, 1);
 }
 
-// 50% more than func2: 225 units (150 from do_work + 75 from func3a)
+// 50% more than func2: 400 units (200 from do_work + 200 from func3a)
 __attribute__((noinline))
 uint64_t func3(uint64_t input) {
-    uint64_t acc = do_work(input, 150);
+    uint64_t acc = do_work(input, 200);
 
-    for (uint64_t i = 0; i < 75; ++i) {
+    for (uint64_t i = 0; i < 200; ++i) {
         acc += func3a(acc);
     }
     return acc;
 }
 
 int main(int argc, char *argv[]) {
-    const uint64_t iterations = (argc > 1) ? strtoull(argv[1], NULL, 0) : 5000000ULL;
+    const uint64_t iterations = (argc > 1) ? strtoull(argv[1], NULL, 0) : 10000000ULL;
     uint64_t total = 0;
 
     printf("Running flamegraph workload (iterations=%" PRIu64 ")\n", iterations);

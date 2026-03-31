@@ -10,7 +10,7 @@ FOLDED_FILE = flamegraph.folded
 SVG_FILE = flamegraph.svg
 FLAMEGRAPH_DIR ?= $(HOME)/FlameGraph
 
-.PHONY: all clean flamegraph flamegraph-process
+.PHONY: all clean flamegraph flamegraph-process flamegraph-perf-internal
 
 all: $(TARGET)
 
@@ -22,7 +22,6 @@ flamegraph: $(PERF_DATA)
 
 $(PERF_DATA): $(TARGET)
 	@echo "Recording perf data for $(TARGET) ..."
-	# Use perf on this command only, not -a system-wide, to get clean per-target profiles.
 	$(PERF) record -g -F $(PERF_FREQUENCY) -o $@ -- ./$(TARGET)
 	@echo "perf record finished"
 
@@ -35,5 +34,10 @@ flamegraph-process: $(PERF_DATA)
 	$(FLAMEGRAPH_DIR)/flamegraph.pl $(FOLDED_FILE) > $(SVG_FILE)
 	@echo "Done: $(SVG_FILE)"
 
+flamegraph-perf-internal: $(PERF_DATA)
+	@echo "Generating flamegraph report from $(PERF_DATA)..."
+	@cp -f $(PERF_DATA) perf.data
+	$(PERF) script report flamegraph --allow-download
+
 clean:
-	rm -f $(TARGET) $(PERF_DATA) $(STACKS_FILE) $(FOLDED_FILE) $(SVG_FILE)
+	rm -f $(TARGET) $(PERF_DATA) $(STACKS_FILE) $(FOLDED_FILE) $(SVG_FILE) flamegraph.html perf.data perf.data.old
