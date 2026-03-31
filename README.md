@@ -213,17 +213,22 @@ avg = 1802748 nsecs, total: 30046405110 nsecs, count: 16667
 
 ```
 
+```bash
 #perf record -a -g -F 111 -o data.perf -p 54221
 perf record -g -F 111 -o data.perf -p 54221
 perf script -i data.perf > data.stacks
 ~/FlameGraph/stackcollapse-perf.pl data.stacks > data.folded
 ~/FlameGraph/flamegraph.pl data.folded > data.svg
+```
 
 ## Offline Flame Graphs
+```bash
 sudo offcputime-bpfcc -df -p 1955 > out.stacks
 ~/FlameGraph/flamegraph.pl --color=io --title="Off-CPU Time Flame Graph" --countname=us < out.stacks > out.svg
+```
 
 ## BPFTrace
+```
 sudo bpftrace -e '
 uprobe:/usr/local/postgresql-18.3/lib/pg_slow.so:is_odd_cliff
 {
@@ -293,6 +298,7 @@ interval:s:10
     clear(@duration_by_bucket);
 }
 '
+```
 
 ## Problem with inlining
 
@@ -307,7 +313,7 @@ Detaching...
 ```
 
 
-## Releae and static
+## Relase and static
 -fvisibility=hidden
 
 ```
@@ -327,7 +333,8 @@ jan@debian-arm64:~/git/pg-conf-ger-2026 (main)$ sudo bpftrace -e 'uprobe:/home/j
 Attaching 1 probe...
 
 
-
+## Readelf
+```
 readelf --debug-dump=info /home/jan/postgresql-sandbox/bin/REL_17_1_RELEASE/lib/pg_slow.so | less
 
  <1><1180>: Abbrev Number: 15 (DW_TAG_subprogram)
@@ -339,9 +346,11 @@ readelf --debug-dump=info /home/jan/postgresql-sandbox/bin/REL_17_1_RELEASE/lib/
     <1188>   DW_AT_type        : <0x125>
     <118c>   DW_AT_inline      : 1      (inlined)
     <118d>   DW_AT_sibling     : <0x11c1>
+```
 
-pg_noinline
+Using `pg_noinline`
 
+```
  <1><11da>: Abbrev Number: 17 (DW_TAG_subprogram)
     <11db>   DW_AT_name        : (indirect string, offset: 0x22b5): is_odd_1
     <11df>   DW_AT_decl_file   : 1
@@ -354,12 +363,13 @@ pg_noinline
     <11f5>   DW_AT_frame_base  : 1 byte block: 9c       (DW_OP_call_frame_cfa)
     <11f7>   DW_AT_call_all_calls: 1
     <11f7>   DW_AT_sibling     : <0x12c9>
+```
 
-
+```
 jan@debian-arm64:~/git/pg-conf-ger-2026 (main)$ sudo bpftrace -e 'uprobe:/home/jan/postgresql-sandbox/bin/REL_17_1_RELEASE/lib/pg_slow.so:is_odd_1 { printf("function hit\n"); }'
 Attaching 1 probe...
 function hit
 function hit
-
+```
 
 => Alternative are static trace points
