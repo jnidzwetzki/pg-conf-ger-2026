@@ -33,7 +33,7 @@ Datum is_odd_fast(PG_FUNCTION_ARGS)
 /*
  * Slow version of is_odd 
  */
-#define BLACK_BLOCK_DECIDER(x) (abs((x) % 3))
+#define BLACK_BOX_DECIDER(x) (abs((x) % 3))
 
 PG_FUNCTION_INFO_V1(is_odd_slow);
 
@@ -42,7 +42,7 @@ Datum is_odd_slow(PG_FUNCTION_ARGS)
     bool result;
     int32 val = PG_GETARG_INT32(0);
 
-    switch (BLACK_BLOCK_DECIDER(val))
+    switch (BLACK_BOX_DECIDER(val))
     {
         case 0:
             result = is_odd_1(val);
