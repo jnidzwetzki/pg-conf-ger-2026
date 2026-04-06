@@ -9,11 +9,20 @@
 #include "utils/builtins.h"
 #include "utils/wait_event.h"
 
+/* #define PG_FAST1 */
+/* #define PG_SUPERFAST1 */ 
+/* #define PG_SUPERFAST2 */
+
+#if defined(PG_SUPERFAST1) && defined(PG_FAST1)
+#error "PG_SUPERFAST1 and PG_FAST1 cannot both be defined"
+#endif
+
 PG_MODULE_MAGIC;
 
 /*
  * Function prototypes 
  */
+char *decrementString(const char *s);
 bool is_odd_1(int32);
 bool is_odd_2(int32);
 bool is_odd_3(int32);
@@ -77,10 +86,29 @@ char *decrementString(const char *s)
     return result;
 }
 
+
+#if defined(PG_SUPERFAST1)
+bool is_odd_1(int32 val)
+{
+    return (val & 1) != 0;
+}
+#elif defined(PG_FAST1)
+bool is_odd_1(int32 val)
+{
+    int i;
+    for(i = 0; i < 20000; i++)
+    {
+        (void) (i * i);
+    }
+
+    return (val & 1) != 0;
+}
+#else
 bool is_odd_1(int32 val)
 {
     long current_val = val;
     char *current;
+    bool is_odd;
 
     /* Handle negative values */
     if (current_val < 0)
@@ -98,11 +126,18 @@ bool is_odd_1(int32 val)
         current = next;
     }
 
-    bool is_odd = (strcmp(current, "1") == 0);
+    is_odd = (strcmp(current, "1") == 0);
     pfree(current);
     return is_odd;
 }
+#endif
 
+#if defined(PG_SUPERFAST2)
+bool is_odd_2(int32 val)
+{
+    return (val & 1) != 0;
+}
+#else
 /* 
  * Is Odd using a CPU-intensive method with a conditional branch
  */
@@ -118,7 +153,8 @@ bool is_odd_2(int32 val)
     }
 
     return (val & 1) != 0;
-}  
+} 
+#endif
 
 /*
  * Is Odd using a latch
