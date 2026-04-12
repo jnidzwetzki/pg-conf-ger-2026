@@ -11,6 +11,31 @@ INSERT INTO data(value) SELECT generate_series(1, 50000);
 ```
 
 ```sql
+db1=# \timing on
+Timing is on.
+db1=# SELECT value, is_odd_slow(value) FROM data;
+ value | is_odd_slow 
+-------+-------------
+     1 | t
+     2 | f
+     3 | t
+     4 | f
+     5 | t
+     6 | f
+     7 | t
+[...]
+ 49994 | f
+ 49995 | t
+ 49996 | f
+ 49997 | t
+ 49998 | f
+ 49999 | t
+ 50000 | f
+(50000 rows)
+Time: 41194.986 ms (00:41.195)
+```
+
+```sql
 db1=# EXPLAIN (VERBOSE, ANALYZE) SELECT value, (value%2)::boolean FROM data;
                                                        QUERY PLAN                                                        
 -------------------------------------------------------------------------------------------------------------------------
@@ -26,16 +51,19 @@ Time: 118.821 ms
 
 ```sql
 db1=# EXPLAIN (VERBOSE, ANALYZE) SELECT value, is_odd_slow(value) FROM data;
-                                                      QUERY PLAN                                                      
-----------------------------------------------------------------------------------------------------------------------
- Seq Scan on public.data  (cost=0.00..847.00 rows=50000 width=5) (actual time=0.115..40355.950 rows=50000.00 loops=1)
+                                                      QUERY PLAN                        
+                              
+----------------------------------------------------------------------------------------
+------------------------------
+ Seq Scan on public.data  (cost=0.00..847.00 rows=50000 width=5) (actual time=0.165..407
+74.297 rows=50000.00 loops=1)
    Output: value, is_odd_slow(value)
    Buffers: shared hit=222
- Planning:
-   Buffers: shared hit=20
- Planning Time: 1.143 ms
- Execution Time: 40358.846 ms
-(7 rows)
+ Planning Time: 0.898 ms
+ Execution Time: 40775.788 ms
+(5 rows)
+
+Time: 40784.256 ms (00:40.784)
 ```
 
 ```sql
@@ -74,6 +102,26 @@ db1=# SELECT pg_backend_pid();
 (1 row)
 ```
 
+## Flame Graphs
+```C
+int main(int argc, char *argv[]) {
+   
+    for (int i = 0; i < iterations; i++) {
+        /* Burn some CPU cycles */
+        func1(i);
+        
+        /* func2 takes 2 times more cycles than func1 */
+        func2(i);
+
+        /* func3 takes 2 times more cycles than func2 */
+        /* It calls func3a internally that needs      */
+        /* ~50% of the CPU cycles.                    */
+        func3(i);
+    }
+
+    return 0;
+}
+```
 
 ## Side notes
 ```
@@ -232,74 +280,76 @@ sudo offcputime-bpfcc -df -p 1955 > out.stacks
 ## BPFTrace
 ```
 sudo bpftrace -e '
-uprobe:/usr/local/postgresql-18.3/lib/pg_slow.so:is_odd_cliff
+uprobe:/usr/local/postgresql-18.3/lib/pg_slow.so:is_odd_2
 {
   @start[tid] = nsecs;
   @v[tid] = arg0;
 }
 
-uretprobe:/usr/local/postgresql-18.3/lib/pg_slow.so:is_odd_cliff
+uretprobe:/usr/local/postgresql-18.3/lib/pg_slow.so:is_odd_2
 /@start[tid]/
 {
-  $dur_us = (nsecs - @start[tid]) / 1000;
+  $dur = nsecs - @start[tid];
   $v = @v[tid];
-  if ($v < 0) {
-    $v = -$v;
-  }
 
-  /* Raster input into 10000-wide buckets: 0, 10000, 20000, ... */
+  /* Assign input into 10000-wide buckets */
   $bucket = ((uint64)$v / 10000) * 10000;
 
   @count[$bucket] = count();
-  @avg_us[$bucket] = avg($dur_us);
+  @avg_ns[$bucket] = avg($dur);
 
   delete(@start[tid]);
   delete(@v[tid]);
 }
 
-interval:s:1
+interval:s:5
 {
   print(@count);
-  print(@avg_us);
-}
-
-END
-{
-  clear(@start);
-  clear(@v);
+  print(@avg_ns);
 }
 '
+```
 
+```
+@count[0]: 3333
+@count[30000]: 3333
+@count[20000]: 3333
+@count[10000]: 3334
+@count[40000]: 3334
+@avg_ns[10000]: 924
+@avg_ns[20000]: 1060
+@avg_ns[30000]: 1158
+@avg_ns[0]: 1246
+@avg_ns[40000]: 534634
+```
+
+```
 sudo bpftrace -e '
-uprobe:/home/jan/postgresql-sandbox/bin/REL_17_1_DEBUG/lib/pg_slow.so:is_odd_cliff
-{
-    @start[tid] = nsecs;
-    @v[tid] = arg0;
+uprobe:/usr/local/postgresql-18.3/lib/pg_slow.so:is_odd_1 { 
+  printf("function enter\n"); 
 }
 
-uretprobe:/home/jan/postgresql-sandbox/bin/REL_17_1_DEBUG/lib/pg_slow.so:is_odd_cliff
-/ @start[tid] != 0 /
-{
-    $dur_us = (nsecs - @start[tid]) / 1000;
-    $v = @v[tid] < 0 ? -@v[tid] : @v[tid];
-    $bucket = 0;
-    if ($v < 0) { $bucket = 0; }
-    if ($v > 1000) { $bucket = 1000; }
-
-    @duration_by_bucket[$bucket] = avg($dur_us);
-    @count_by_bucket[$bucket] += 1;
-    delete(@start[tid]);
-    delete(@v[tid]);
-}
-
-interval:s:10
-{
-    print(@count_by_bucket);
-    print(@duration_by_bucket);
-    clear(@count_by_bucket);
-    clear(@duration_by_bucket);
+uretprobe:/usr/local/postgresql-18.3/lib/pg_slow.so:is_odd_1 { 
+  printf("function exit\n"); 
 }
 '
+```
+
+```
+sudo bpftrace -e '
+uprobe:/usr/local/postgresql-18.3/lib/pg_slow.so:is_odd_1 { 
+  printf("function enter\n"); 
+}
+
+uretprobe:/usr/local/postgresql-18.3/lib/pg_slow.so:is_odd_1 { 
+  printf("function exit\n"); 
+}
+'
+Attaching 2 probes...
+function enter
+function exit
+function enter
+function exit
 ```
 
 ## Problem with inlining
