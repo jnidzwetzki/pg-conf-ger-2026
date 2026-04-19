@@ -3,6 +3,10 @@
 This repository contains the supplemental material for my talk ['Profiling PostgreSQL: perf, Flame Graphs, and eBPF Tools in Practice
 '](https://www.postgresql.eu/events/pgconfde2026/schedule/session/7538-profiling-postgresql-perf-flame-graphs-and-ebpf-tools-in-practice/) at PostgreSQL Conf Ger 2026.
 
+## Source Code
+* `pg_slow` can be found in [`src/pg_slow`](src/pg_slow) directory. 
+* A test workload to generate a simple flame graph can be found in [`src/workload`](src/workload) directory.
+
 ## Environment
 ```sql
 CREATE EXTENSION pg_slow;
@@ -123,26 +127,6 @@ int main(int argc, char *argv[]) {
 }
 ```
 
-## Side notes
-```
-Warning:
-PID/TID switch overriding SYSTEM
-Error:
-Access to performance monitoring and observability operations is limited.
-Consider adjusting /proc/sys/kernel/perf_event_paranoid setting to open
-access to performance monitoring and observability operations for processes
-without CAP_PERFMON, CAP_SYS_PTRACE or CAP_SYS_ADMIN Linux capability.
-More information can be found at 'Perf events and tool security' document:
-https://www.kernel.org/doc/html/latest/admin-guide/perf-security.html
-perf_event_paranoid setting is 3:
-  -1: Allow use of (almost) all events by all users
-      Ignore mlock limit after perf_event_mlock_kb without CAP_IPC_LOCK
->= 0: Disallow raw and ftrace function tracepoint access
->= 1: Disallow CPU event access
->= 2: Disallow kernel profiling
-To make the adjusted perf_event_paranoid setting permanent preserve it
-in /etc/sysctl.conf (e.g. kernel.perf_event_paranoid = <setting>)
-```
 
 ## Funccount
 
@@ -156,7 +140,7 @@ is_odd_slow                             50000
 Detaching...
 ```
 
-## Cliff
+## Function latency
 ```
 vscode ➜ /workspaces/pg-conf-ger-2026/src/pg_slow (main) $ sudo funclatency-bpfcc /usr/local/postgresql-18.3/lib/pg_slow.so:'is_odd_1'
 Tracing 1 functions for "/usr/local/postgresql-18.3/lib/pg_slow.so:is_odd_1"... Hit Ctrl-C to end.
@@ -263,8 +247,9 @@ avg = 1802748 nsecs, total: 30046405110 nsecs, count: 16667
 
 ```
 
+## Flame Graphs
+
 ```bash
-#perf record -a -g -F 111 -o data.perf -p 54221
 perf record -g -F 111 -o data.perf -p 54221
 perf script -i data.perf > data.stacks
 ~/FlameGraph/stackcollapse-perf.pl data.stacks > data.folded
@@ -425,5 +410,3 @@ Attaching 1 probe...
 function hit
 function hit
 ```
-
-=> Alternative are static trace points
