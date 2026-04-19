@@ -143,12 +143,14 @@ bool is_odd_2(int32 val)
  */
 bool is_odd_2(int32 val)
 {
-    int i;
     if (val > 40000)
     {
+        int i;
+        volatile int dummy;
         for(i = 0; i < 2000000; i++)
         {
-            (void) (i * i);
+            dummy = (i * i);
+            (void) dummy; // Keeps the compiler quiet
         }
     }
 
