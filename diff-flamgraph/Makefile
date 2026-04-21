@@ -36,7 +36,7 @@ superfast: superfast.svg
 
 diff: old.folded new.folded
 	@echo "Generating diff flamegraph..."
-	$(FLAMEGRAPH_DIR)/difffolded.pl old.folded new.folded | $(FLAMEGRAPH_DIR)/flamegraph.pl > diff.svg
+	$(FLAMEGRAPH_DIR)/difffolded.pl old.folded new.folded | $(FLAMEGRAPH_DIR)/flamegraph.pl --negate > diff.svg
 	@echo "Done: diff.svg"
 
 clean:
