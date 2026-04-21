@@ -431,128 +431,128 @@
 <text id="matched" x="1090.00" y="469" > </text>
 <g id="frames">
 <g >
-<title>__libc_start_main (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="389" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="13.00" y="399.5" >__libc_start_main</text>
-</g>
-<g >
-<title>ExecProject (1,765,765,764 samples, 99.49%; 0.00%)</title><rect x="10.0" y="117" width="1174.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="13.00" y="127.5" >ExecProject</text>
-</g>
-<g >
-<title>ExecSeqScanWithProject (1,765,765,764 samples, 99.49%; 0.00%)</title><rect x="10.0" y="133" width="1174.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="13.00" y="143.5" >ExecSeqScanWithProject</text>
-</g>
-<g >
-<title>main (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="357" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="13.00" y="367.5" >main</text>
-</g>
-<g >
-<title>ExecutorRun (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="197" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="13.00" y="207.5" >ExecutorRun</text>
-</g>
-<g >
-<title>[libc.so.6] (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="373" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="13.00" y="383.5" >[libc.so.6]</text>
-</g>
-<g >
-<title>all (1,774,774,773 samples, 100%)</title><rect x="10.0" y="437" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="13.00" y="447.5" ></text>
-</g>
-<g >
-<title>pg_server_to_any (9,009,009 samples, 0.51%; +0.51%)</title><rect x="1184.0" y="101" width="6.0" height="15.0" fill="rgb(255,208,208)" rx="2" ry="2" />
-<text  x="1187.01" y="111.5" ></text>
-</g>
-<g >
-<title>exec_simple_query (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="245" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="13.00" y="255.5" >exec_simple_query</text>
-</g>
-<g >
-<title>is_odd_1 (108,108,108 samples, 6.09%; +3.05%)</title><rect x="10.0" y="37" width="71.9" height="15.0" fill="rgb(255,201,201)" rx="2" ry="2" />
-<text  x="13.00" y="47.5" >is_odd_1</text>
-</g>
-<g >
-<title>ExecProcNode (1,765,765,764 samples, 99.49%; 0.00%)</title><rect x="10.0" y="149" width="1174.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="13.00" y="159.5" >ExecProcNode</text>
-</g>
-<g >
-<title>is_odd_2 (1,657,657,656 samples, 93.40%; -7.61%)</title><rect x="81.9" y="37" width="1102.1" height="15.0" fill="rgb(188,188,255)" rx="2" ry="2" />
-<text  x="84.88" y="47.5" >is_odd_2</text>
-</g>
-<g >
 <title>ExecEvalExprNoReturnSwitchContext (1,765,765,764 samples, 99.49%; 0.00%)</title><rect x="10.0" y="101" width="1174.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
 <text  x="13.00" y="111.5" >ExecEvalExprNoReturnSwitchContext</text>
-</g>
-<g >
-<title>ExecutePlan (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="165" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="13.00" y="175.5" >ExecutePlan</text>
-</g>
-<g >
-<title>ExecInterpExpr (1,765,765,764 samples, 99.49%; 0.00%)</title><rect x="10.0" y="69" width="1174.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="13.00" y="79.5" >ExecInterpExpr</text>
-</g>
-<g >
-<title>PortalRun (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="229" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="13.00" y="239.5" >PortalRun</text>
-</g>
-<g >
-<title>standard_ExecutorRun (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="181" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="13.00" y="191.5" >standard_ExecutorRun</text>
-</g>
-<g >
-<title>postgres (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="421" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="13.00" y="431.5" >postgres</text>
-</g>
-<g >
-<title>is_odd_slow (1,765,765,764 samples, 99.49%; 0.00%)</title><rect x="10.0" y="53" width="1174.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="13.00" y="63.5" >is_odd_slow</text>
-</g>
-<g >
-<title>BackendStartup (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="309" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="13.00" y="319.5" >BackendStartup</text>
-</g>
-<g >
-<title>PortalRunSelect (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="213" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="13.00" y="223.5" >PortalRunSelect</text>
 </g>
 <g >
 <title>PostmasterMain (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="341" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
 <text  x="13.00" y="351.5" >PostmasterMain</text>
 </g>
 <g >
-<title>pg_server_to_client (9,009,009 samples, 0.51%; 0.00%)</title><rect x="1184.0" y="117" width="6.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="1187.01" y="127.5" ></text>
+<title>__libc_start_main (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="389" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="13.00" y="399.5" >__libc_start_main</text>
 </g>
 <g >
-<title>printtup (9,009,009 samples, 0.51%; 0.00%)</title><rect x="1184.0" y="149" width="6.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="1187.01" y="159.5" ></text>
-</g>
-<g >
-<title>PostgresMain (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="261" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="13.00" y="271.5" >PostgresMain</text>
-</g>
-<g >
-<title>_start (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="405" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="13.00" y="415.5" >_start</text>
-</g>
-<g >
-<title>postmaster_child_launch (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="293" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="13.00" y="303.5" >postmaster_child_launch</text>
-</g>
-<g >
-<title>ExecEvalExprNoReturn (1,765,765,764 samples, 99.49%; 0.00%)</title><rect x="10.0" y="85" width="1174.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="13.00" y="95.5" >ExecEvalExprNoReturn</text>
-</g>
-<g >
-<title>pq_sendcountedtext (9,009,009 samples, 0.51%; 0.00%)</title><rect x="1184.0" y="133" width="6.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
-<text  x="1187.01" y="143.5" ></text>
+<title>is_odd_slow (1,765,765,764 samples, 99.49%; 0.00%)</title><rect x="10.0" y="53" width="1174.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="13.00" y="63.5" >is_odd_slow</text>
 </g>
 <g >
 <title>ServerLoop (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="325" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
 <text  x="13.00" y="335.5" >ServerLoop</text>
 </g>
 <g >
+<title>ExecEvalExprNoReturn (1,765,765,764 samples, 99.49%; 0.00%)</title><rect x="10.0" y="85" width="1174.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="13.00" y="95.5" >ExecEvalExprNoReturn</text>
+</g>
+<g >
+<title>[libc.so.6] (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="373" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="13.00" y="383.5" >[libc.so.6]</text>
+</g>
+<g >
+<title>pg_server_to_client (9,009,009 samples, 0.51%; 0.00%)</title><rect x="1184.0" y="117" width="6.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="1187.01" y="127.5" ></text>
+</g>
+<g >
+<title>ExecProcNode (1,765,765,764 samples, 99.49%; 0.00%)</title><rect x="10.0" y="149" width="1174.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="13.00" y="159.5" >ExecProcNode</text>
+</g>
+<g >
+<title>_start (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="405" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="13.00" y="415.5" >_start</text>
+</g>
+<g >
 <title>BackendMain (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="277" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
 <text  x="13.00" y="287.5" >BackendMain</text>
+</g>
+<g >
+<title>ExecInterpExpr (1,765,765,764 samples, 99.49%; 0.00%)</title><rect x="10.0" y="69" width="1174.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="13.00" y="79.5" >ExecInterpExpr</text>
+</g>
+<g >
+<title>ExecutorRun (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="197" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="13.00" y="207.5" >ExecutorRun</text>
+</g>
+<g >
+<title>PortalRun (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="229" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="13.00" y="239.5" >PortalRun</text>
+</g>
+<g >
+<title>PostgresMain (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="261" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="13.00" y="271.5" >PostgresMain</text>
+</g>
+<g >
+<title>postgres (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="421" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="13.00" y="431.5" >postgres</text>
+</g>
+<g >
+<title>ExecutePlan (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="165" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="13.00" y="175.5" >ExecutePlan</text>
+</g>
+<g >
+<title>BackendStartup (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="309" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="13.00" y="319.5" >BackendStartup</text>
+</g>
+<g >
+<title>all (1,774,774,773 samples, 100%)</title><rect x="10.0" y="437" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="13.00" y="447.5" ></text>
+</g>
+<g >
+<title>ExecSeqScanWithProject (1,765,765,764 samples, 99.49%; 0.00%)</title><rect x="10.0" y="133" width="1174.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="13.00" y="143.5" >ExecSeqScanWithProject</text>
+</g>
+<g >
+<title>standard_ExecutorRun (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="181" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="13.00" y="191.5" >standard_ExecutorRun</text>
+</g>
+<g >
+<title>is_odd_1 (108,108,108 samples, 6.09%; -3.05%)</title><rect x="10.0" y="37" width="71.9" height="15.0" fill="rgb(201,201,255)" rx="2" ry="2" />
+<text  x="13.00" y="47.5" >is_odd_1</text>
+</g>
+<g >
+<title>PortalRunSelect (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="213" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="13.00" y="223.5" >PortalRunSelect</text>
+</g>
+<g >
+<title>exec_simple_query (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="245" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="13.00" y="255.5" >exec_simple_query</text>
+</g>
+<g >
+<title>main (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="357" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="13.00" y="367.5" >main</text>
+</g>
+<g >
+<title>pg_server_to_any (9,009,009 samples, 0.51%; -0.51%)</title><rect x="1184.0" y="101" width="6.0" height="15.0" fill="rgb(208,208,255)" rx="2" ry="2" />
+<text  x="1187.01" y="111.5" ></text>
+</g>
+<g >
+<title>pq_sendcountedtext (9,009,009 samples, 0.51%; 0.00%)</title><rect x="1184.0" y="133" width="6.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="1187.01" y="143.5" ></text>
+</g>
+<g >
+<title>postmaster_child_launch (1,774,774,773 samples, 100.00%; 0.00%)</title><rect x="10.0" y="293" width="1180.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="13.00" y="303.5" >postmaster_child_launch</text>
+</g>
+<g >
+<title>ExecProject (1,765,765,764 samples, 99.49%; 0.00%)</title><rect x="10.0" y="117" width="1174.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="13.00" y="127.5" >ExecProject</text>
+</g>
+<g >
+<title>printtup (9,009,009 samples, 0.51%; 0.00%)</title><rect x="1184.0" y="149" width="6.0" height="15.0" fill="rgb(255,255,255)" rx="2" ry="2" />
+<text  x="1187.01" y="159.5" ></text>
+</g>
+<g >
+<title>is_odd_2 (1,657,657,656 samples, 93.40%; +7.61%)</title><rect x="81.9" y="37" width="1102.1" height="15.0" fill="rgb(255,188,188)" rx="2" ry="2" />
+<text  x="84.88" y="47.5" >is_odd_2</text>
 </g>
 </g>
 </svg>
