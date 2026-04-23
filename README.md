@@ -1,7 +1,7 @@
 # Supplemental material for my talk at PostgreSQL Conf Ger 2026 
 
 This repository contains the supplemental material for my talk ['Profiling PostgreSQL: perf, Flame Graphs, and eBPF Tools in Practice
-'](https://www.postgresql.eu/events/pgconfde2026/schedule/session/7538-profiling-postgresql-perf-flame-graphs-and-ebpf-tools-in-practice/) at PostgreSQL Conf Ger 2026.
+'](https://www.postgresql.eu/events/pgconfde2026/schedule/session/7538-profiling-postgresql-perf-flame-graphs-and-ebpf-tools-in-practice/) at PostgreSQL Conf Ger 2026. You can find the slides for the talk in the [slides](slides) directory.
 
 ## Source Code
 * `pg_slow` can be found in [`src/pg_slow`](src/pg_slow) directory. 
